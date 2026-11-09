@@ -1,3 +1,5 @@
 # Teacher Records
 
-Store one Markdown record per teacher here. Copy the root `teacher-record-template.md`, fill it in, and name it to match the teacher's photo, for example `mrs-haythe.md`.
+This folder is no longer part of the upload process. You do not need to create or edit teacher records.
+
+To add a teacher, upload their image to `teacher-photos/` and include their name in the filename.
