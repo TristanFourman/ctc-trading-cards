@@ -1,29 +1,21 @@
 # CTC Trading Card Collection
 
-This repository is the source library for the CTC teacher trading-card project.
+This repository is the photo library for the CTC teacher trading-card project.
 
-## Before uploading teacher photos
-**This repository is currently public.** Change it to **Private** before adding teacher/staff photos or other personal information. In GitHub: Settings → Danger Zone → Change repository visibility → Private.
+## Add a teacher — one step
+1. Upload the teacher's photo into `teacher-photos/`.
+2. Put the teacher's name in the image filename, for example `Mr-Fadden.jpg` or `Mrs-Haythe.png`.
+3. Commit the upload.
 
-## How to add a teacher
-1. Put the teacher's photo in `teacher-photos/`.
-2. Use a simple filename, preferably lowercase with hyphens, e.g. `mrs-haythe.jpg`.
-3. Copy `teacher-record-template.md` into `teacher-records/` and rename it to match the photo, e.g. `mrs-haythe.md`.
-4. Fill in the teacher's name, subject, card type, artwork style, and stat level.
-5. Commit the photo and record to GitHub.
+That's it. **You do not need to create a teacher record, fill out a template, or choose card settings.**
 
-When you want a card, tell ChatGPT: **"Make the card for [teacher name] from my CTC trading cards repo."** ChatGPT can look up the matching record and photo through the connected GitHub integration, then create the card in the conversation. Generated card images are not automatically committed to this repository; ask separately if you want a card file saved here.
-
-## Required card choices
-- Card type: Basic, GX, or EX
-- Artwork: Full Art or Regular Art
-- Stats: Max, High, Regular, or Low
+When you want a card, tell ChatGPT: **"Create the card for Mr. Fadden."** ChatGPT will find the image by its filename and create the card using the established CTC Pokémon-inspired collection style. It will choose the card type, artwork layout, stats, attacks, and theme creatively. If the subject or role is not known from the available context, it will avoid inventing specific facts and make a general CTC staff card.
 
 ## Folders
-- `teacher-photos/` — original reference photos
-- `teacher-records/` — one metadata file per teacher
+- `teacher-photos/` — upload each teacher's image here; include their name in the filename
+- `teacher-records/` — no longer needed; you can ignore this folder
 - `completed-cards/` — finished card images you choose to archive
-- `ctc-branding/` — CTC logo, card-back reference, and design assets
+- `ctc-branding/` — CTC logo and design references
 
-## Privacy
-Keep this repository private while it contains identifiable teacher/staff photos. Only upload images you have permission to use for this project.
+## Photo guidance
+Use a clear photo and a filename that unmistakably identifies the teacher. Accepted common image formats include JPG, JPEG, and PNG. Only upload images you have permission to use for this project.
