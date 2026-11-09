@@ -1,15 +1,5 @@
-# Teacher Card Record
+# Archived: Teacher Card Record Template
 
-Copy this file into `teacher-records/` and rename it to match the teacher's photo filename.
+This template is no longer required.
 
-- **Teacher name:** 
-- **Subject / program:** 
-- **Photo filename:** 
-- **Card type:** Basic / GX / EX
-- **Artwork style:** Full Art / Regular Art
-- **Stat level:** Max / High / Regular / Low
-- **Special instructions / custom move ideas:** 
-- **Card created:** No
-
-## Notes
-Use one record per teacher. Keep the photo filename exact so the matching image can be found.
+To add a teacher, upload their photo to `teacher-photos/` and put their name in the image filename. ChatGPT will choose the card design and stats.
