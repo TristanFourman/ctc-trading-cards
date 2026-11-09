@@ -1,9 +1,10 @@
 # Teacher Photos
 
-Upload one reference photo per teacher here.
+This is the only folder you need to use when adding teachers.
 
-Use filenames that match the teacher's record, for example:
-- `mrs-haythe.jpg`
-- `mr-nichols.png`
+Upload one clear image per teacher. **Put the teacher's name in the filename**, for example:
+- `Mr-Fadden.jpg`
+- `Mrs-Haythe.png`
+- `Mr-Nichols.jpeg`
 
-Keep this repository private while it contains identifiable photos.
+Commit the upload. No separate teacher record or settings file is needed.
